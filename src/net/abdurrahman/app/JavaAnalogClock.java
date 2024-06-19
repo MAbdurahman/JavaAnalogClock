@@ -175,8 +175,9 @@ public class JavaAnalogClock extends JPanel {
 
         }
 
-        clockFont = new Font("Verdana", Font.PLAIN, 24);
+        clockFont = new Font("Verdana", Font.PLAIN, 16);
         g2d.setFont(clockFont);
+        g2d.drawString("J a v a", centerPointX - 30, centerPointY - 60);
 
 
         /** Create and set the font for the numbers, and draw the numbers 1 through 12 around the clock */
