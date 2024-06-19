@@ -62,7 +62,7 @@ public class JavaAnalogClock extends JPanel {
     /**
      * paint Method - Overrides the paint method of the JPanel Abstract Class, and redefines
      * it to draw the clock oval, minute markings, clock numbers, the hour, the minute, and
-     * the second hands for the SimpleAnalogClock.
+     * the second hands for the JavaAnalogClock.
      * @param g - the Graphics context
      */
     @Override
