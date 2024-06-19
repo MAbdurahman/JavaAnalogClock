@@ -137,7 +137,7 @@ public class JavaAnalogClock extends JPanel {
         int secondsPlusFiveXCoordinate = (int) (Math.cos(secondsPlusFive * Math.PI / 30 - Math.PI / 2) * 8 + centerPointX);
         int secondsPlusFiveYCoordinate = (int) (Math.sin(secondsPlusFive * Math.PI / 30 - Math.PI / 2) * 8 + centerPointY);
 
-        /** The attributes and colors used in the SimpleAnalogClock */
+        /** The attributes and colors used in the JavaAnalogClock */
         int clockFaceWidth = 400;
         int clockFaceHeight = 400;
 
